@@ -1,5 +1,5 @@
 //
-//  hxswapViewController.h
+//  HxPageViewController.h
 //  HxPageViewController
 //
 //  Created by Harry Xiao Han on 2014-06-11.
@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwapViewController.h"
+#import "TestLoadViewController.h"
 
-@interface HxPageViewController : UIViewController
+@interface HxPageViewController : UIViewController<UpdateSwapViewDelegate>
+@property (weak, nonatomic) IBOutlet UIView *windowView;
 
 @end

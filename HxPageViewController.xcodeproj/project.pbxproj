@@ -22,6 +22,8 @@
 		0EBE62B91948965C0053C014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE62B71948965C0053C014 /* InfoPlist.strings */; };
 		0EBE62BB1948965C0053C014 /* HxPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62BA1948965C0053C014 /* HxPageViewControllerTests.m */; };
 		0EBE62C619489C470053C014 /* HxPageViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62C519489C470053C014 /* HxPageViewAppDelegate.m */; };
+		0EBE62C919489ED80053C014 /* SwapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62C819489ED80053C014 /* SwapViewController.m */; };
+		0EBE62CF1948A3D40053C014 /* TestLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62CE1948A3D40053C014 /* TestLoadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,11 @@
 		0EBE62BA1948965C0053C014 /* HxPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HxPageViewControllerTests.m; sourceTree = "<group>"; };
 		0EBE62C419489C470053C014 /* HxPageViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HxPageViewAppDelegate.h; sourceTree = "<group>"; };
 		0EBE62C519489C470053C014 /* HxPageViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HxPageViewAppDelegate.m; sourceTree = "<group>"; };
+		0EBE62C719489ED80053C014 /* SwapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwapViewController.h; sourceTree = "<group>"; };
+		0EBE62C819489ED80053C014 /* SwapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwapViewController.m; sourceTree = "<group>"; };
+		0EBE62CA19489EFA0053C014 /* SwapConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapConfig.h; sourceTree = "<group>"; };
+		0EBE62CD1948A3D40053C014 /* TestLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLoadViewController.h; sourceTree = "<group>"; };
+		0EBE62CE1948A3D40053C014 /* TestLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLoadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +121,8 @@
 		0EBE62921948965C0053C014 /* HxPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0EBE62C419489C470053C014 /* HxPageViewAppDelegate.h */,
-				0EBE62C519489C470053C014 /* HxPageViewAppDelegate.m */,
+				0EBE62CC1948A3A90053C014 /* TestLoadViewController */,
+				0EBE62CB19489F050053C014 /* SwapViewController */,
 				0EBE629E1948965C0053C014 /* Main_iPhone.storyboard */,
 				0EBE62A11948965C0053C014 /* Main_iPad.storyboard */,
 				0EBE62A41948965C0053C014 /* HxPageViewController.h */,
@@ -129,6 +136,8 @@
 		0EBE62931948965C0053C014 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0EBE62C419489C470053C014 /* HxPageViewAppDelegate.h */,
+				0EBE62C519489C470053C014 /* HxPageViewAppDelegate.m */,
 				0EBE62941948965C0053C014 /* HxPageViewController-Info.plist */,
 				0EBE62951948965C0053C014 /* InfoPlist.strings */,
 				0EBE62981948965C0053C014 /* main.m */,
@@ -153,6 +162,25 @@
 				0EBE62B71948965C0053C014 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EBE62CB19489F050053C014 /* SwapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE62CA19489EFA0053C014 /* SwapConfig.h */,
+				0EBE62C719489ED80053C014 /* SwapViewController.h */,
+				0EBE62C819489ED80053C014 /* SwapViewController.m */,
+			);
+			name = SwapViewController;
+			sourceTree = "<group>";
+		};
+		0EBE62CC1948A3A90053C014 /* TestLoadViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE62CD1948A3D40053C014 /* TestLoadViewController.h */,
+				0EBE62CE1948A3D40053C014 /* TestLoadViewController.m */,
+			);
+			name = TestLoadViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBE62CF1948A3D40053C014 /* TestLoadViewController.m in Sources */,
 				0EBE62991948965C0053C014 /* main.m in Sources */,
+				0EBE62C919489ED80053C014 /* SwapViewController.m in Sources */,
 				0EBE62C619489C470053C014 /* HxPageViewAppDelegate.m in Sources */,
 				0EBE62A61948965C0053C014 /* HxPageViewController.m in Sources */,
 			);
