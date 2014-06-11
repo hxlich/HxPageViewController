@@ -12,16 +12,16 @@
 		0EBE62911948965C0053C014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE62901948965C0053C014 /* UIKit.framework */; };
 		0EBE62971948965C0053C014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE62951948965C0053C014 /* InfoPlist.strings */; };
 		0EBE62991948965C0053C014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62981948965C0053C014 /* main.m */; };
-		0EBE629D1948965C0053C014 /* hxswapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE629C1948965C0053C014 /* hxswapAppDelegate.m */; };
 		0EBE62A01948965C0053C014 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE629E1948965C0053C014 /* Main_iPhone.storyboard */; };
 		0EBE62A31948965C0053C014 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE62A11948965C0053C014 /* Main_iPad.storyboard */; };
-		0EBE62A61948965C0053C014 /* hxswapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62A51948965C0053C014 /* hxswapViewController.m */; };
+		0EBE62A61948965C0053C014 /* HxPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62A51948965C0053C014 /* HxPageViewController.m */; };
 		0EBE62A81948965C0053C014 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE62A71948965C0053C014 /* Images.xcassets */; };
 		0EBE62AF1948965C0053C014 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE62AE1948965C0053C014 /* XCTest.framework */; };
 		0EBE62B01948965C0053C014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE628C1948965C0053C014 /* Foundation.framework */; };
 		0EBE62B11948965C0053C014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE62901948965C0053C014 /* UIKit.framework */; };
 		0EBE62B91948965C0053C014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE62B71948965C0053C014 /* InfoPlist.strings */; };
 		0EBE62BB1948965C0053C014 /* HxPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62BA1948965C0053C014 /* HxPageViewControllerTests.m */; };
+		0EBE62C619489C470053C014 /* HxPageViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE62C519489C470053C014 /* HxPageViewAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,18 +43,18 @@
 		0EBE62961948965C0053C014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EBE62981948965C0053C014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EBE629A1948965C0053C014 /* HxPageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HxPageViewController-Prefix.pch"; sourceTree = "<group>"; };
-		0EBE629B1948965C0053C014 /* hxswapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hxswapAppDelegate.h; sourceTree = "<group>"; };
-		0EBE629C1948965C0053C014 /* hxswapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hxswapAppDelegate.m; sourceTree = "<group>"; };
 		0EBE629F1948965C0053C014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		0EBE62A21948965C0053C014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		0EBE62A41948965C0053C014 /* hxswapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hxswapViewController.h; sourceTree = "<group>"; };
-		0EBE62A51948965C0053C014 /* hxswapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hxswapViewController.m; sourceTree = "<group>"; };
+		0EBE62A41948965C0053C014 /* HxPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HxPageViewController.h; sourceTree = "<group>"; };
+		0EBE62A51948965C0053C014 /* HxPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HxPageViewController.m; sourceTree = "<group>"; };
 		0EBE62A71948965C0053C014 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0EBE62AD1948965C0053C014 /* HxPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HxPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBE62AE1948965C0053C014 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0EBE62B61948965C0053C014 /* HxPageViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HxPageViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		0EBE62B81948965C0053C014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EBE62BA1948965C0053C014 /* HxPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HxPageViewControllerTests.m; sourceTree = "<group>"; };
+		0EBE62C419489C470053C014 /* HxPageViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HxPageViewAppDelegate.h; sourceTree = "<group>"; };
+		0EBE62C519489C470053C014 /* HxPageViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HxPageViewAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +114,12 @@
 		0EBE62921948965C0053C014 /* HxPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0EBE629B1948965C0053C014 /* hxswapAppDelegate.h */,
-				0EBE629C1948965C0053C014 /* hxswapAppDelegate.m */,
+				0EBE62C419489C470053C014 /* HxPageViewAppDelegate.h */,
+				0EBE62C519489C470053C014 /* HxPageViewAppDelegate.m */,
 				0EBE629E1948965C0053C014 /* Main_iPhone.storyboard */,
 				0EBE62A11948965C0053C014 /* Main_iPad.storyboard */,
-				0EBE62A41948965C0053C014 /* hxswapViewController.h */,
-				0EBE62A51948965C0053C014 /* hxswapViewController.m */,
+				0EBE62A41948965C0053C014 /* HxPageViewController.h */,
+				0EBE62A51948965C0053C014 /* HxPageViewController.m */,
 				0EBE62A71948965C0053C014 /* Images.xcassets */,
 				0EBE62931948965C0053C014 /* Supporting Files */,
 			);
@@ -255,8 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EBE62991948965C0053C014 /* main.m in Sources */,
-				0EBE62A61948965C0053C014 /* hxswapViewController.m in Sources */,
-				0EBE629D1948965C0053C014 /* hxswapAppDelegate.m in Sources */,
+				0EBE62C619489C470053C014 /* HxPageViewAppDelegate.m in Sources */,
+				0EBE62A61948965C0053C014 /* HxPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +471,7 @@
 				0EBE62C01948965C0053C014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EBE62C11948965C0053C014 /* Build configuration list for PBXNativeTarget "HxPageViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				0EBE62C31948965C0053C014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
